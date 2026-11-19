@@ -1,21 +1,53 @@
 # Portfolio — Khaidir Maulana
 
-    npm install
-    npm run dev
+Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-- Put your CV at `public/documents/Khaidir-Maulana-CV.pdf`. The Download CV buttons only appear when the file exists.
-- Edit content in `src/data/*`. Set `available` in `profile.ts` to false to hide the availability line.
-- Deploy: push to GitHub, import in Vercel.
+## Getting Started
 
-## Confirm before publishing
-- Phone / WhatsApp: `showPhone`, `showWhatsapp` in `src/data/profile.ts` (both off).
-- Availability line: `available` in `profile.ts` (off).
-- Sentinel repository link: remove `hidden: true` in `src/data/projects.ts` once the repo is public.
-- TransitNearMe report: add `{ label: "Project report (PDF)", href: "/documents/transitnearme-report.pdf" }` to its `links` once you decide to publish it.
-- Screenshots: none are used. Add an `images` field only with real screenshots.
+Install dependencies:
 
-## Deploy to GitHub Pages
-1. Create a public repo named `khaidirm5.github.io` and push this project to `main`.
-2. In the repo: Settings > Pages > Source: **GitHub Actions**.
-3. Each push to `main` builds and publishes to https://khaidirm5.github.io.
-(Using a different repo name serves the site under /repo-name and needs `basePath` in `next.config.ts`; internal links would need updating too.)
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Project Configuration
+
+- **CV:** Place your CV at `public/documents/Khaidir-Maulana-CV.pdf`. Download CV buttons will only appear when the file exists.
+- **Content:** Edit portfolio information in `src/data/*`.
+- **Availability:** Set `available` in `src/data/profile.ts` to `true` to display availability for professional opportunities.
+- **Contact privacy:** Control phone and WhatsApp visibility using `showPhone` and `showWhatsapp` in `src/data/profile.ts`.
+
+## Featured Projects
+
+- **Sentinel:** Development on Hold. Backend functionality is mostly implemented, while the frontend still contains placeholder UI.
+- **TransitNearMe:** Academic Prototype — Not Currently Functional. A final-year academic project developed during an internship at the Applied Information Systems Laboratory, Telkom University.
+
+Project descriptions reflect their documented development status. Neither project should be presented as currently production-ready.
+
+## Before Publishing
+
+- Phone and WhatsApp visibility: currently disabled.
+- Professional availability: enabled (`available: true`).
+- Sentinel repository link: keep hidden until the repository is ready for public viewing.
+- TransitNearMe report: publish only after reviewing the PDF and confirming it is suitable for public access.
+- Screenshots: only add authentic screenshots from the original projects.
+
+## Deployment — GitHub Pages
+
+This project is configured for static export using Next.js.
+
+1. Create a public GitHub repository named `khaidirm5.github.io`.
+2. Push the project to the `main` branch.
+3. Open **Settings → Pages**.
+4. Set the deployment source to **GitHub Actions**.
+5. GitHub Actions will build and deploy the website after each push to `main`.
+
+Website: [https://khaidirm5.github.io](https://khaidirm5.github.io)
