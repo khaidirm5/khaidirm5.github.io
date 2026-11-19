@@ -1,8 +1,8 @@
 export const profile = {
   name: "Khaidir Maulana",
-  headline: "Turning Data, Systems & Technology Into Practical Solutions.",
+  headline: "Data, Administration & Technology — Building Practical Solutions",
   intro:
-    "Information Systems graduate and Informatics student with experience in data management, administrative operations, and software development. Interested in building practical technology solutions through data, systems, and programming.",
+    "Information Systems graduate currently pursuing a Bachelor's degree in Informatics, with experience in data management, administrative operations, field coordination, and foundational IT support.",
   about: [
     "I am an Information Systems graduate from Telkom University, currently pursuing a Bachelor’s degree in Informatics. My experience combines administrative operations, data verification, public service, and software development.",
     "Through professional and academic projects, I have developed an interest in how technology and information systems can solve practical problems. I enjoy working with structured data, understanding system workflows, and exploring software solutions that improve usability and efficiency.",
