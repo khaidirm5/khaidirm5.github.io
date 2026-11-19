@@ -26,14 +26,12 @@ export const education = [
     school: "Universitas Telkom",
     period: "2025 – 2027 (expected)",
     gpa: "3.62 (current)",
-    courses: ["Big Data & AI", "Cybersecurity"],
   },
   {
     degree: "D3 Sistem Informasi",
     school: "Universitas Telkom",
     period: "2021 – 2024",
     gpa: "3.64",
-    courses: ["Database (SQL)"],
   },
 ];
 
