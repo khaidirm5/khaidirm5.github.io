@@ -1,3 +1,4 @@
+
 export const profile = {
   name: "Khaidir Maulana",
   headline: "Data, Administration & Technology — Building Practical Solutions",
@@ -7,9 +8,7 @@ export const profile = {
     "I am an Information Systems graduate from Telkom University, currently pursuing a Bachelor’s degree in Informatics. My experience combines administrative operations, data verification, public service, and software development.",
     "Through professional and academic projects, I have developed an interest in how technology and information systems can solve practical problems. I enjoy working with structured data, understanding system workflows, and exploring software solutions that improve usability and efficiency.",
   ],
-  // Shows "Available for professional opportunities" in the hero. Set to true only if it is accurate.
   available: true,
-  // Flip these to true once you confirm you want them public.
   showPhone: false,
   showWhatsapp: false,
   email: "khaidir.maulana67@gmail.com",
@@ -36,7 +35,11 @@ export const education = [
 ];
 
 export const certifications = [
-  "IELTS, overall score 5.0",
+  "IELTS, Overall Band Score 5.0",
   "The Web Developer Bootcamp 2026, Udemy",
 ];
-export const languages = ["Bahasa Indonesia (active)", "English (intermediate)"];
+
+export const languages = [
+  "Bahasa Indonesia (Fluent)",
+  "English (Intermediate)",
+];

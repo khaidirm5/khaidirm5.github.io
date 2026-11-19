@@ -95,7 +95,6 @@ export default function Home() {
                 <p className="text-sm text-muted">{e.period}</p>
                 <h3 className="mt-1 text-lg font-semibold">{e.degree}</h3>
                 <p className="text-muted">{e.school} · GPA {e.gpa}</p>
-                <p className="mt-3 text-sm text-muted">Coursework: {e.courses.join(", ")}</p>
               </div>
             ))}
           </div>
