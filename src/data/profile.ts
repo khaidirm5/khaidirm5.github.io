@@ -1,0 +1,44 @@
+export const profile = {
+  name: "Khaidir Maulana",
+  headline: "Turning Data, Systems & Technology Into Practical Solutions.",
+  intro:
+    "Information Systems graduate and Informatics student with experience in data management, administrative operations, and software development. Interested in building practical technology solutions through data, systems, and programming.",
+  about: [
+    "I am an Information Systems graduate from Telkom University, currently pursuing a Bachelor’s degree in Informatics. My experience combines administrative operations, data verification, public service, and software development.",
+    "Through professional and academic projects, I have developed an interest in how technology and information systems can solve practical problems. I enjoy working with structured data, understanding system workflows, and exploring software solutions that improve usability and efficiency.",
+  ],
+  // Shows "Available for professional opportunities" in the hero. Set to true only if it is accurate.
+  available: true,
+  // Flip these to true once you confirm you want them public.
+  showPhone: false,
+  showWhatsapp: false,
+  email: "khaidir.maulana67@gmail.com",
+  phone: "+62 821-2065-2437",
+  whatsapp: "https://wa.me/6282120652437",
+  github: "https://github.com/khaidirm5",
+  location: "Indramayu, West Java, Indonesia",
+  cvPath: "/documents/Khaidir-Maulana-CV.pdf",
+};
+
+export const education = [
+  {
+    degree: "S1 Informatika (Pembelajaran Jarak Jauh)",
+    school: "Universitas Telkom",
+    period: "2025 – 2027 (expected)",
+    gpa: "3.62 (current)",
+    courses: ["Big Data & AI", "Cybersecurity"],
+  },
+  {
+    degree: "D3 Sistem Informasi",
+    school: "Universitas Telkom",
+    period: "2021 – 2024",
+    gpa: "3.64",
+    courses: ["Database (SQL)"],
+  },
+];
+
+export const certifications = [
+  "IELTS, overall score 5.0",
+  "The Web Developer Bootcamp 2026, Udemy",
+];
+export const languages = ["Bahasa Indonesia (active)", "English (intermediate)"];
